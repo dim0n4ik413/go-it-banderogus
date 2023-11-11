@@ -1,0 +1,201 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.main-page {
+    background: var(--background, linear-gradient(90deg, #afe7e7 1.14%, #A5DEFF 100%));
+}
+.main-page-text-container {
+    box-sizing: border-box;
+    border-radius: 40px;
+    background:#FFF;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    
+}
+.main-page-btn {
+    border-radius: 8px;
+    border: none;
+    color: #FFF;
+    background:  #FF6B0A;
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    cursor: pointer;
+
+}
+.logo {
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+.main-page-text-hello {
+color: #1B1D1F;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+margin-top: 0px;
+margin-bottom: 60px;
+}
+.main-page-text-title {
+color: #1B1D1F;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: 72px; 
+margin-top: 0px;
+margin-bottom: 24px;
+}
+.main-page-text-desct {
+color:  #1B1D1F;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin-top: 0px;
+margin-bottom: 32px;
+}
+.gus-facts {
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 100px;
+}
+.main-page-text-fact {
+color: #1B1D1F;
+text-align: center;
+font-size: 48px;
+font-weight: 600;
+line-height: 72px; 
+margin-top: 24px;
+
+}
+.gus-facts-dscr {
+    color:#1B1D1F;
+    text-align: center;     
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    width: 772px;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.gus-facts-item-title {
+color:#1B1D1F;
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+margin-top: 8px;
+margin-bottom: 32px;
+}
+.gus-facts-item-dscr {
+color: #1B1D1F;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin: 0px;
+}
+.gus-facts-item {
+    width: 374px;
+}
+.form-page {
+background: var(--background, linear-gradient(90deg, #EFFFFF 0%, #A5DEFF 100%)); 
+padding-top: 80px;
+padding-bottom: 80px;
+}
+.form {
+border-radius: 40px;
+background: #FFF;
+width: 574px;
+padding-top: 32px;
+padding-left: 60px;
+padding-right: 60px;
+padding-bottom: 60px;
+box-sizing: border-box;
+margin: auto;
+text-align: center;
+}
+.form-title {
+color: #1B1D1F;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+margin-top: 32px;
+margin-bottom: 12px;
+}
+.form-decr {
+color: #1B1D1F;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 24px;
+}
+.form-input {
+border-radius: 8px;
+border: 1px solid var(--blue, #005BBB);
+background: #FFF;
+width: 452px;
+height: 60px;
+flex-shrink: 0;
+color: #1B1D1F;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+padding-left: 12px;
+padding-right: 12px;
+}
+.form-label {
+color: #000;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 8px;
+}
+.form-fild {
+text-align: left;  
+margin-bottom: 24px;
+}
+.form-btn {
+border-radius: 8px;
+border: none;
+color: #FFF;
+background:  #FF6B0A;
+padding-top: 12px;
+padding-left: 24px;
+padding-right: 24px;
+padding-bottom: 12px;
+box-sizing: border-box;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+cursor: pointer;
+margin-top: 48px;
+}
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
